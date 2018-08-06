@@ -1,0 +1,25 @@
+{
+  "name": "proyectonpm",
+  "version": "0.1.0",
+  "description": "lenguaje inventado js",
+  "main": "dist/src/lenguajefalse.js",
+  "scripts": {
+    "build": "babel src/lenguajefalse.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrInternauta/LenguajeFalse.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "mrinternauta",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
